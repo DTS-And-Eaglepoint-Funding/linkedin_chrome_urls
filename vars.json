@@ -1,0 +1,22 @@
+{
+    "FriendMacherUser":{
+        "macherHtml:":  "<li class=\"mn-abi-results__nav-item\"><button aria-label=\"FriendMacher\" id=\"FriendMacher\" class=\"artdeco-button artdeco-button--muted artdeco-button--2 artdeco-button--secondary ember-view\"><!----><span class=\"artdeco-button__text\">FriendMacher</span></button></li><pre> </pre>",
+        "location":"#main > div > div > div.mn-abi-results.member-container.artdeco-card > section > div > ul li:lt(1)",
+        "scroller": "label.mn-abi-result-card__name-label",
+        "disabler": "#main > div > div > div.mn-abi-results.member-container.artdeco-card > section > div > ul > li.mn-abi-results__nav-item.mn-abi-results__nav-item-checkbox"
+    },
+    "linkToFriendsUser":{
+        "linkHtml":"<li class=\"global-nav__primary-item\"><a data-test-global-nav-link=\"mynetwork\" data-resource=\"voyagerCommunicationsTabBadges\" data-link-to=\"mynetwork\" data-control-name=\"nav_mynetwork\" data-alias=\"relationships\" href=\"/mynetwork/import-contacts/results/member/\" id=\"Import\" class=\"global-nav__primary-link ember-view\">  <svg class=\"global-nav__icon \" xmlns=\"http://www.w3.org/2000/svg\"><use href=\"#global-nav-icon--mercado__my-network\" class=\"global-nav__icon-path\"></use></svg><span class=\"global-nav__primary-link-text\">Import-Contacts</span></a></li>",
+        "loc": ".global-nav__primary-items li:first-child"
+
+    },
+    "WithdrawNukeUser":{
+        "nukeHtml":"<button role=\"checkbox\" aria-checked=\"false\" aria-label=\"WithdrawNuke\" id=\"WithdrawNuke\" class=\"mt3 mr3 artdeco-pill artdeco-pill--blue artdeco-pill--3 artdeco-pill--toggle ember-view\" type=\"button\"><span class=\"artdeco-pill__text\">Withdraw Nuke</span><li-icon aria-hidden=\"true\" type=\"plus-icon\" class=\"artdeco-pill__icon\" size=\"small\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 16 16\" data-supported-dps=\"16x16\" fill=\"currentColor\" class=\"mercado-match\" width=\"16\" height=\"16\" focusable=\"false\"><path d=\"M14 9H9v5H7V9H2V7h5V2h2v5h5z\"></path></svg></li-icon></button>",
+        "invite": ".invitation-card__action-container.pl3",
+        "card": ".invitation-card__action-btn",
+        "withdrawModal": "#artdeco-modal-outlet",
+        "withdrawModalLoc": 0,
+        "withdraw": ".artdeco-button--primary",
+        "label": "aria-label"
+    }
+}
